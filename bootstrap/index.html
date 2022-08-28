@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+<p>hi</p>
+
+<ol style="border: 2px solid black;">
+<li>Is it automatically a container or container-fluid?</li>
+
+<li>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</li>
+
+<li>Many users already have downloaded Bootstrap 5 from jsDelivr when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time.</li>
+
+<li>Bootstrap's grid system is built with flexbox. Make sure that the sum adds up to 12 or fewer (it is not required that you use all 12 available columns).</li>
+
+<li>why is everything in container .... even table</li>
+
+<li>why is there a div before table for table-responsive</li>
+
+<li>why are pictures displaying like that? third one isn't float. also, https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_img_centered&stacked=h</li>
+
+<li> The image will then scale nicely to the parent element. The .img-fluid class applies max-width: 100%; and height: auto; to the image: </li>
+
+<li>what do button, input, submit, and reset buttons do</li>
+<!--
+.col-
+.col-sm-
+.col-md-
+.col-lg-
+.col-xl-
+.col-xxl
+The classes above can be combined to create more dynamic and flexible layouts.
+
+Tip: Each class scales up, so if you want to set the same widths for sm and md, you only need to specify sm. -->
+
+
+</ol>
+
+<div class="container pt-5" style="border: 2px solid black;"> <!-- padding-top 5 (large) -->
+    <p>I'm in a container</p>
+</div>
+
+<div class="container-fluid" style="border: 2px solid black;">
+    <p>I'm in a container-fluid</p>
+</div>
+
+<!--               -->
+
+<div class="container p-5 my-5 border">
+  <h1>My First Bootstrap Page</h1>
+  <p>This container has a border and some extra padding and margins.</p>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+  <h1>My First Bootstrap Page</h1>
+  <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+</div>
+
+<div class="container p-5 my-5 bg-primary text-white">
+  <h1>My First Bootstrap Page</h1>
+  <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+</div>
+
+<div class="container-sm border">.container-sm</div>
+<div class="container-md mt-3 border">.container-md</div>
+<div class="container-lg mt-3 border">.container-lg</div>
+<div class="container-xl mt-3 border">.container-xl</div>
+<div class="container-xxl mt-3 border">.container-xxl</div>
+
+
+
+
+
+<!-- Control the column width, and how they should appear on different devices -->
+<div class="row">
+  <div class="col-*-*">drtfhgtbrcdthy</div>
+  <div class="col-*-*">gyukfyujdt</div>
+</div>
+<div class="row">
+  <div class="col-*-*">dtrfhthcth</div>
+  <div class="col-*-*">xthtfrh</div>
+  <div class="col-*-*">xtrfhtht</div>
+</div>
+
+<!-- Or let Bootstrap automatically handle the layout -->
+<div class="row">
+  <div class="col">xthtfrhxrt</div>
+  <div class="col">srthrthr</div>
+  <div class="col">tfjytyj</div>
+</div>
+
+<!-- add the desired number of columns (tags with appropriate .col-*-* classes). The first star (*) represents the responsiveness: sm, md, lg, xl or xxl, while the second star represents a number, which should add up to 12 for each row.
+
+Second example: instead of adding a number to each col, let bootstrap handle the layout, to create equal width columns: two "col" elements = 50% width to each col, while three cols = 33.33% width to each col. Four cols = 25% width, etc. You can also use .col-sm|md|lg|xl|xxl to make the columns responsive. -->
+
+<div class="container-fluid mt-3">
+  <h1>Three equal width columns</h1>
+  <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.</p>
+  <div class="row">
+    <div class="col p-3 bg-primary text-white">.col</div>
+    <div class="col p-3 bg-dark text-white">.col</div>
+    <div class="col p-3 bg-primary text-white">.col</div>
+  </div>
+</div>
+<hr>
+  <div class="row">
+    <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-primary text-white">.col</div>
+    <div class="col-sm-3 p-3 bg-dark text-white">.col</div>
+  </div>
+<hr>
+
+<div class="container-fluid mt-3">
+  <h1>Two Unequal Responsive Columns</h1>
+  <div class="row">
+    <div class="col-sm-4 p-3 bg-primary text-white">.col</div>
+    <div class="col-sm-8 p-3 bg-dark text-white">.col</div>
+  </div>
+</div>
+
+
+<div class="container mt-3">
+  <p>The font-size of each Bootstrap heading depends on the screen size. Try to resize the browser window to see the effect.</p>
+  <h1>h1 Bootstrap heading</h1>
+  <h2>h2 Bootstrap heading</h2>
+  <h3>h3 Bootstrap heading</h3>
+  <h4>h4 Bootstrap heading</h4>
+  <h5>h5 Bootstrap heading</h5>
+  <h6>h6 Bootstrap heading</h6>
+
+  <p class="h1">h1 Bootstrap heading</p>
+  <p class="h2">h2 Bootstrap heading</p>
+  <p class="h3">h3 Bootstrap heading</p>
+  <p class="h4">h4 Bootstrap heading</p>
+  <p class="h5">h5 Bootstrap heading</p>
+  <p class="h6">h6 Bootstrap heading</p>
+
+  <h1>Display Headings</h1>
+  <p>Display headings are used to stand out more than normal headings (larger font-size and lighter font-weight):</p>
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+  <h1 class="display-5">Display 5</h1>
+  <h1 class="display-6">Display 6</h1>
+
+  <h1>Smaller, Secondary Text</h1>
+  <p>The small element (and the .small class) is used to create a smaller, secondary text in any heading:</p>       
+  <h1>h1 heading <small>secondary text</small></h1>
+  <h2>h2 heading <small>secondary text</small></h2>
+  <h3>h3 heading <small>secondary text</small></h3>
+  <h4>h4 heading <small>secondary text</small></h4>
+  <h5>h5 heading <small>secondary text</small></h5>
+  <h6>h6 heading <small>secondary text</small></h6>
+</div>
+
+<div class="container mt-3">
+  <h1>Highlight Text</h1>    
+  <p>Use the mark element (or the .mark class) to <mark>highlight</mark> and little bit of padding, text.</p>
+  
+  <h1>Abbreviations</h1>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>    
+  <p>The <abbr title="World Health Organization" class="initialism">WHO</abbr> was founded in 1948. (slightly smaller abbr)</p>
+
+  <h1>Blockquotes</h1>
+  <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote>
+
+  <h1>Code Snippets</h1>
+  <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+  
+  <h1>Keyboard Inputs</h1>
+  <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+  <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+  
+    <h1>Multiple Code Lines</h1>
+    <p>For multiple lines of code, use the pre element:</p>
+    <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    </pre>
+    
+  <h1>Description Lists</h1>    
+  <p>The dl element indicates a description list:</p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>     
+
+
+<h2>Typography</h2>
+  <p>Use the .lead class to make a paragraph "stand out":</p>
+  <p class="lead">This paragraph stands out.</p>
+  <p>This is a regular paragraph.</p>
+  
+  <p class="text-left">Left-aligned text.</p>
+  <p class="text-end">Right-aligned text.</p>      
+  <p class="text-center">Center-aligned text.</p>
+  <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+  
+  <p class="text-lowercase">Lowercased text.</p>
+  <p class="text-uppercase">Uppercased text.</p>      
+  <p class="text-capitalize">Capitalized text.</p>
+
+  
+    <h2>Text break / Word break</h2>
+  <p>The .text-break class prevents long text from breaking layout.</p>
+  <p>With .text-break:</p>
+  <p class="text-break">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+  <p>Without .text-break:</p>
+  <p>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+  
+    <h2>Text Decoration</h2>
+  <p>Use the .text-decoration-none class to remove the underline from a link.</p>
+  <a href="#" class="text-decoration-none">A link without underline.</a>
+  
+  <p>The class .list-inline places all list items on a single line, when used together with the .list-inline-item:</p>
+  <ul class="list-inline">
+    <li class="list-inline-item">Coffee</li>
+    <li class="list-inline-item">Tea</li>
+    <li class="list-inline-item">Milk</li>
+  </ul>
+  
+  <p>The class .list-unstyled removes the default list-style and left margin on list items (immediate children only):</p>
+  <ul class="list-unstyled">
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+  
+  
+</div>
+
+<div class="container mt-3">
+  <h2>Contextual Colors</h2>
+  <p class="text-muted">This text is muted.</p>
+  <p class="text-primary">This text is important.</p>
+  <p class="text-success">This text indicates success.</p>
+  <p class="text-info">This text represents some information.</p>
+  <p class="text-warning">This text represents a warning.</p>
+  <p class="text-danger">This text represents danger.</p>
+  <p class="text-secondary">Secondary text.</p>
+  <p class="text-dark">This text is dark grey.</p>
+  <p class="text-body">Default body color (often black).</p>
+  <p class="text-light">This text is light grey (on white background).</p>
+  <p class="text-white">This text is white (on white background).</p>
+  
+  <h2>Opacity Text Colors</h2>
+  <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+  <p class="text-black-50">Black text with 50% opacity on white background</p>
+  <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+  
+  <h2>Contextual Backgrounds</h2>
+  <p>Use the contextual background classes to provide "meaning through colors".</p>
+  <p>Note that you can also add a .text-* class if you want a different text color:</p>
+  <p class="bg-primary text-white">This text is important.</p>
+  <p class="bg-success text-white">This text indicates success.</p>
+  <p class="bg-info text-white">This text represents some information.</p>
+  <p class="bg-warning text-white">This text represents a warning.</p>
+  <p class="bg-danger text-white">This text represents danger.</p>
+  <p class="bg-secondary text-white">Secondary background color.</p>
+  <p class="bg-dark text-white">Dark grey background color.</p>
+  <p class="bg-light text-dark">Light grey background color.</p>
+</div>
+
+<div class="container mt-3">
+  <h2>Basic Table</h2>
+  <div class="table-responsive">
+  <table class="table table-bordered table-striped table-hover"> <!--table-borderless--> <!-- table-sm --> <!--table-responsive-sm -->
+    <thead class="table-dark">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+  <table class="table table-dark table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Contextual classes can be used to color the table, table rows or table cells.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+      </tr>      
+      <tr class="table-primary">
+        <td>Primary</td>
+      </tr>
+      <tr class="table-success">
+        <td>Success</td>
+      </tr>
+      <tr class="table-danger">
+        <td>Danger</td>
+      </tr>
+      <tr class="table-info">
+        <td>Info</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Warning</td>
+      </tr>
+      <tr class="table-active">
+        <td>Active</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Secondary</td>
+      </tr>
+      <tr class="table-light">
+        <td>Light</td>
+      </tr>
+      <tr class="table-dark">
+        <td>Dark</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+<div class="container mt-3">
+  <p>The .rounded class adds rounded corners to an image:</p>            
+  <img src="pongo.png" class="rounded float-start img-fluid" alt="Cinque Terre" width="304" height="236"> 
+  
+  <p>The .rounded-circle class shapes the image to a circle:</p>            
+  <img src="pongo.png" class="rounded-circle float-end img-fluid" alt="Cinque Terre" width="304" height="236"> 
+  
+  <p>The .img-thumbnail class creates a thumbnail of the image:</p>            
+  <img src="pongo.png" class="img-thumbnail img-fluid" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<div class="container mt-3">
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>Jumbotron Example</h1> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..</p> 
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Alerts</h2>
+  <div class="alert alert-success">
+    <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+  </div>
+  
+  
+  <div class="alert alert-info alert-dismissible">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+  </div>
+  
+  <div class="alert alert-warning alert-dismissible fade show">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <strong>Warning!</strong> This one fades.
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> Indicates an important action.
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> Indicates a slightly less important action.
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> Dark grey alert.
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> Light grey alert.
+  </div>
+
+</div>
+
+<div class="container mt-3">
+  <h2>Button Elements</h2>
+  <!-- what are all of these? -->
+  <a href="#" class="btn btn-success">Link Button</a>
+  <button type="button" class="btn btn-success">Button</button>
+  <input type="button" class="btn btn-success" value="Input Button">
+  <input type="submit" class="btn btn-success" value="Submit Button">
+  <input type="reset" class="btn btn-success" value="Reset Button">
+  
+  
+  
+    <h2>Button Styles</h2>
+  <button type="button" class="btn">Basic</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-link">Link</button>     
+  
+    <h2>Button Outline</h2>
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary">Default</button>
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
+  
+  <!-- To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element: -->
+ <div class="d-grid gap-3">
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+</div> 
+  
+  <!--  Note that <a> elements do not support the disabled attribute and must therefore use the .disabled class to make it visually appear disabled. -->
+   <button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+<a href="#" class="btn btn-primary disabled">Disabled Link</a> 
+  
+  
+  <button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+</button>
+
+<button class="btn btn-primary">
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>
+
+<button class="btn btn-primary" disabled>
+  <span class="spinner-border spinner-border-sm"></span>
+  Loading..
+</button>
+
+<button class="btn btn-primary" disabled>
+  <span class="spinner-grow spinner-grow-sm"></span>
+  Loading..
+</button>
+  
+  
+  
+  
+</div>
+
+
+
+
+</body>
+</html>
