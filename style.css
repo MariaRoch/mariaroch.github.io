@@ -1,0 +1,40 @@
+#navigation ul{ /* Original Index */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#003399;
+}
+#navigation li{
+    float: left;
+    border: 2px solid white;
+    width: 25%;
+}
+#navigation li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+#navigation li a:hover {
+  background-color:#004de6;
+}
+body{ /* About Me */
+    background-image: url("../jellies3.jpg");
+    background-image: url("jellies3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  /* background-size: 100% 100%; */
+}
+a{
+    text-decoration: none;
+    color: #00ffff;
+}
+div{
+    color: #ffffff;
+}
+img{
+    width: 50%;
+} /*  Sally Pongo  */

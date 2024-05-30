@@ -1,3 +1,31 @@
+log in on Github's website
+git add *
+git commit -m "Derrick is great and I will give him all my money"
+git push
+
+<link rel="stylesheet" type="text/css" href="style.css">
+Done -- get all pages to use style.css
+Done -- take out CSS from all pages
+Done -- move things in CS to Favorites
+Done -- make sure all Favorites are present in rest of CS
+Done -- move things in Resources to Favorites
+Done -- Make sure all Favorites are present in rest of Resources (5-29-2024)
+Done -- (CS) make sure all sections have # to them in beginning
+Done -- (Resources) make sure all sections have # to them in beginning
+Done -- Organize styledump.css
 
 
+Proofread / user tested so far:
+PROOFREAD all folders already! (5-30-24)
 
+Is my key public since git add * it might have been in the folder then???
+
+Later -- Fix Resources so that Favorites gets its own box
+Later -- Make Table of Content's not open new page, while keeping external links open new page
+Later -- (CS) Organize "Further Resources"/Unorganized
+Later -- (Resources) Organize "Further Resources"/Unorganized
+Later -- Make sure Table of Contents are all updated
+Later -- fix background image (consistency in style_dump.css)
+Later -- make Directory links open in new tab
+Later -- CHANGE About Me -> 20q's everywhere
+Later -- fix all art links
