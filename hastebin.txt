@@ -17,6 +17,7 @@ Done -- Organize styledump.css
 
 Proofread / user tested so far:
 PROOFREAD all folders already! (5-30-24)
+lightly proofread live site
 
 Is my key public since git add * it might have been in the folder then???
 
