@@ -3,6 +3,32 @@ git add *
 git commit -m "Derrick is great and I will give him all my money"
 git push
 
+
+
+
+
+
+
+Make Bootstrap in the Website folder and not just linked to it online..........
+
+
+
+
+
+
+
+
+https://playingchordcharts.com/intro
+https://www.musictheory.net/
+https://openmusictheory.com/
+https://musictheory.pugetsound.edu/mt21c/MusicTheory.html
+https://www.expandingthemusictheorycanon.com/
+https://musictheoryexamples.com/
+https://girlinbluemusic.com/music-theory-resources/
+https://www.explainshell.com/
+https://theresanaiforthat.com/ai/
+
+
 <link rel="stylesheet" type="text/css" href="style.css">
 Done -- get all pages to use style.css
 Done -- take out CSS from all pages
@@ -30,3 +56,103 @@ Later -- fix background image (consistency in style_dump.css)
 Later -- make Directory links open in new tab
 Later -- CHANGE About Me -> 20q's everywhere
 Later -- fix all art links
+
+"In fact, let us just call things what they are. When a man's love of finery clouds his moral judgement, that is vanity. When he lets a demanding palate make his moral choices, that is gluttony. When he ascribes the divine will to his own whims, that is pride. And when he gets angry at being reminded of animal suffering that his own daily choices might help him avoid, that is moral cowardice"(Dominion, 121).
+
+"Take one impulse, your hankering for a hot dog. Multiply it a hundred million times over and follow the lines as they meet in Utah at that 50,000-acre facility, housing all those hogs never once allowed outside. That is the complex world one craving creates. Most people can't even face the details behind it" (Dominion, 44).
+
+"Missing above all is love, which the theorists mistake for utility. Love for animals, like our own love for one another, comes in seeing the worth and beauty of other apart from us, in understanding that the creatures need not be our equals to be our humble brothers in suffering and sadness and the story of life" (Dominion, 246).
+
+"Your character is like your health, more valuable than anything you can buy. Don't throw it away... Your character is the most precious thing about you. Don't let it degrade." - "Ten Arguments for Deleting your Social Media Accounts Right Now"
+
+"When you live as if there's nothing special, no mystical spark inside you, you gradually start to believe it." - "Ten Arguments for Deleting your Social Media Accounts Right Now"
+
+"I am only one, but I am one. I cannot do everything, but I can do something. And I will not let what I cannot do interfere with what I can do." - Edward Everett Hale
+
+“The more we understand about life, in general, the more we value the lives of all creatures.” -Paul Johnson
+
+“My body will not be a tomb for other creatures.” – Leonardo Da Vinci
+
+“I’m vegan for animals because they deserve to live in peace just like we do.” – Genesis Butler
+
+“Be kind to every kind.” – Anonymous
+
+“I consider myself a lover of animals and if you do too, then why would we let them go through pain and suffering?” – Max La Manna
+
+“To get mud off your hands, you use soap. To get blood off your hands, you go vegan.” – John Sakars
+
+“Fish are friends. Not food.” – Finding Nemo
+
+“If slaughterhouses had glass walls, the whole world would be vegetarian.”― Linda McCartney
+
+“Farmers love their animals and want only the best for them, while still profiting from sending them to a slaughterhouse to be killed. It is undeniably a contradiction to claim to love someone who you intend to kill for money.” – Ed Winters
+
+“Who are we to say dogs and cats have more rights than cows and pigs. They’re all conscious. They feel the same. They hurt the same. God help us understand!” – Izey Victoria
+
+“We love all animals. Why do we call some ‘pets’ and others ‘dinner’?”- K.D. Lang
+
+“The love for all living creatures is the most noble attribute of man.” – Charles Darwin
+
+“If we can’t tell children what happens to farm animals. Maybe what we’re doing to the animals is wrong.” – Anonymous
+
+“Adding ‘humane’ before slaughter doesn’t cancel out the slaughter. It cancels out your guilt.” – Anonymous
+
+“To my mind, the life of a lamb is no less precious than that of a human being.” — Mahatma Gandhi
+
+“I hold that the more helpless a creature, the more entitled it is to protection by humans from the cruelty of humans.”
+Mahatma Gandhi
+
+“How we treat the vulnerable is how we define ourselves as a species.”
+Russell Brand
+
+“If you don’t like pictures of animal cruelty being posted on social media, you need to help stop the cruelty, not the pictures. You should be bothered that it’s happening, not that you saw it.”
+Marie Sarantakis
+
+“There is no fundamental difference between humans and animals in their ability to feel pleasure and pain, happiness, and misery.”
+Charles Darwin
+
+“Vegan is just pure love. Love for animals, love for the planet, and love for yourself.”
+Mischa Temaul
+
+“People eat meat and think they will become as strong as an ox, forgetting that the ox eats grass.”
+Pino Caruso
+
+“It’s pretty amazing to wake up every morning, knowing that every decision I make is to cause as little harm as possible. It’s a pretty fantastic way to live.”
+Colleen Patrick-Goudreau
+
+
+In the example above, we abandoned best practices.
+You must drop a sinker to access her thinker!:tropical_fish:
+
+
+We do not possess imagination enough to sense what we are missing.  Jean Toomer
+
+
+<p><i>"Whatever money I have that is not budgeted, I spend."</i> ~ <i>The Slight Edge</i> (paraphrased)
+
+<p><i>"Work expands to fill the time available for its completion."</i> ~ Parkinson's Law</p>
+
+https://www.goodreads.com/quotes/tag/vegan
+
+In the example above, we abandoned best practices. You must drop a sinker to access her thinker!
+Don't give up. Water the seeds of your dreams, even if all you have are tears.   .
+.....
+
+Discord:
+"In the example above, we abandoned best practices. Say, Jarvis, did you know a dog's nose print is unique much like a fingerprint?"
+
+"In 1971 the psychologist Herbert
+A. Simon presciently wrote, “The wealth of information means a dearth of
+something else . . . a poverty of attention.” Researchers tell us attention and
+focus are the raw materials of human creativity and flourishing. In the age
+of increased automation, the most sought-after jobs are those that require
+creative problem-solving, novel solutions, and the kind of human ingenuity
+that comes from focusing deeply on the task at hand." -- go on about my good focusing if I have it, in Website
+
+Page 14 “Loneliness, according to researchers, is more dangerous than obesity.” Julianne Holt-
+Lunstad, Timothy B. Smith, and J. Bradley Layton, “Social Relationships and Mortality Risk: A
+Meta-analytic Review,” PLOS Medicine 7, no. 7 (July 27, 2010),
+https://doi.org/10.1371/journal.pmed.1000316.
+
+
+Indistractable: "As philosopher Paul Virilio wrote, “When you invent the ship, you also invent the shipwreck.”
