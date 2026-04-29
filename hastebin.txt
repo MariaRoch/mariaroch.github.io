@@ -6,6 +6,20 @@ git push
 
 
 
+log in on Github's website
+git add *
+git commit -m "Derrick is great and I will give him all my money"
+git push
+
+log in on Github's website
+git add *
+git commit -m "Derrick is great and I will give him all my money"
+git push
+
+log in on Github's website
+git add *
+git commit -m "Derrick is great and I will give him all my money"
+git push
 
 
 
