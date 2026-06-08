@@ -21,9 +21,16 @@ git add *
 git commit -m "Derrick is great and I will give him all my money"
 git push
 
-
-
 Make Bootstrap in the Website folder and not just linked to it online..........
+____________________________________
+Resume --
+
+Resume Page --
+Resume Download --
+Landing Page --
+
+LinkedIn --
+____________________________________
 
 
 
