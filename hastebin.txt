@@ -1,4 +1,6 @@
 log in on Github's website
+AND GET in rihgt directory!!!!
+
 git add *
 git commit -m "Derrick is great and I will give him all my money"
 git push
@@ -23,14 +25,20 @@ git push
 
 Make Bootstrap in the Website folder and not just linked to it online..........
 ____________________________________
-Resume --
+Resume -- Done
+Indeed (put Resume on it?) -- Done puting Reusme on it
+Indeed Profile -- DONE
 
-Resume Page --
-Resume Download --
-Landing Page --
+Resume Page -- Good
+Resume Download -- Good
+Landing Page -- Good
 
-LinkedIn --
+LinkedIn -- Done
 ____________________________________
+Become certfied to be a part time math teacher?
+
+https://www.google.com/search?q=how+long+does+it+tke+to+be+certified+florida+math+teacher&sca_esv=ec0135bcbec233e7&sxsrf=ANbL-n6WN5V6MlbS-xTACWR0NDHpPlSpBw%3A1780947002634&ei=OhgnarizJvCzwt0Pl6WvoAc&biw=1280&bih=588&ved=0ahUKEwi4uNLLsPiUAxXwmbAFHZfSC3QQ4dUDCBA&uact=5&oq=how+long+does+it+tke+to+be+certified+florida+math+teacher&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWhvdyBsb25nIGRvZXMgaXQgdGtlIHRvIGJlIGNlcnRpZmllZCBmbG9yaWRhIG1hdGggdGVhY2hlcjIKECEYChigARjDBEiaWVD6CVizV3AFeAGQAQCYAX2gAc4kqgEFMjIuMjW4AQPIAQD4AQGYAiCgAqEZwgIKEAAYRxjWBBiwA8ICCBAAGAgYBxgewgILEAAYgAQYigUYhgPCAgUQABjvBcICBxAjGLACGCfCAgQQIxgnwgIGEAAYCBgewgIIECEYoAEYwwTCAggQABiABBiiBMICBBAhGAqYAwCIBgGQBgiSBwUxMS4yMaAHyMoBsgcENi4yMbgHmRjCBwkyLTEzLjEzLjbIB4kDgAgB&sclient=gws-wiz-serp
+
 
 
 
